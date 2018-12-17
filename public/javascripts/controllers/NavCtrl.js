@@ -57,4 +57,15 @@ function($scope, auth, $location, $state, $rootScope, PouchDB, localStorageServi
 
   }
 
+  $scope.dosageView = function(){
+    if ($rootScope.IsInternetOnline) {
+      $state.go("dosage", {}, {reload: true});
+    }else {
+      $state.go("home", {}, {reload: true});
+      setTimeout(function(){
+         $scope.SweetAlert("¡Error de Conexión!", "Conéctese a internet para acceder a las notificaciones.", "warning");
+       }, 500);
+    }
+
+  }
 }]);

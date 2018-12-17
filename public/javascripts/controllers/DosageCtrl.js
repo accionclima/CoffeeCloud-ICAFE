@@ -11,7 +11,7 @@ function($scope, $state, auth,localStorageService, socket){
 
   }*/
   $scope.dosage = {resultado: "--"}
-  
+  $scope.dosage = {litrosHa: "--"}
   
   $scope.typeChange = function() {
 	  $scope.dosage.productName = "";
@@ -19,12 +19,13 @@ function($scope, $state, auth,localStorageService, socket){
   
   $scope.calculateDosage= function(){
 	
-    var litrosHa = ($scope.dosage.litersWornOut / $scope.dosage.plantsAtomised) * 5000;
+    var litrosHa = ($scope.dosage.litersWornOut / $scope.dosage.plantsAtomised) * 10000/($scope.dosage.hileras * $scope.dosage.filas);
     console.log('litrosHa: ', litrosHa);
     
     var resultado = $scope.dosage.productName / litrosHa;
     
     $scope.dosage.resultado = resultado.toFixed(2);
+	$scope.dosage.litrosHa = litrosHa.toFixed(0);
     
     if($scope.dosage.productType == 'Ojo de gallo' && $scope.dosage.producto2) {
 	    	var resultadoS = 2000 / litrosHa;

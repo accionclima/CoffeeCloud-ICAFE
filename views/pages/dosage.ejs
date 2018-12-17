@@ -10,7 +10,8 @@
 									
 <div class="well">
 		<h6 style="margin-top:0;">Resultado</h6>
-									<strong> (cc/litros): <span class="badge" ng-bind="dosage.resultado"></span> </strong>	<br>
+									<strong> (litros de agua / hectárea): <span class="badge" ng-bind="dosage.litrosHa"></span> </strong>	<br>
+									<strong> (cc de producto / litro): <span class="badge" ng-bind="dosage.resultado"></span> </strong>	<br>
 								<strong	ng-show="dosage.resultadoS">Cepex (cc/litros): <span class="badge" ng-bind="dosage.resultadoS"></span> </strong>
 </div>	
 								
@@ -63,6 +64,20 @@
 									<span>
 										<strong>Plantas Atomizadas:</strong> 
 										<input type="number" ng-model="dosage.plantsAtomised" class="form-control"  value="1" required> 
+									</span>
+									<span>
+										<strong>Distanciamiento:</strong>
+										<table width="100%">
+											<tr>
+												<td style= "text-align: center;">Hileras</td>
+												<td style= "text-align: center;">Filas</td>
+											</tr>
+											<tr>
+												<td><input type="number" ng-model="dosage.hileras" class="form-control"  value="1" required></td>
+										
+												<td><input type="number" ng-model="dosage.filas" class="form-control"  value="1" required></td>
+											</tr>
+										</table>
 									</span>
 
 									<span>
