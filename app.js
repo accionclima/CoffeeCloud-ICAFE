@@ -25,7 +25,7 @@ require('./models/Fungicida');
 require('./models/Vulnerability');
 require('./models/Encuesta');
 
-require('./config/passport'); mongoose.connect('mongodb://51.15.116.199:27017/dummyDB', {
+require('./config/passport'); mongoose.connect('mongodb://caferoot@Secoelpinto123!@51.15.116.199:27017/dummyDB', {
   server: {
     socketOptions: {
       socketTimeoutMS: 0,
