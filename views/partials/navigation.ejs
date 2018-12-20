@@ -7,7 +7,18 @@
         padding-left: 15%;
     }
 
+    #soportewhatsapp .list-group-item {
+        background-color:inherit;
+        color:#777;
+        text-align:left;
+        padding-left: 15%;
+    }
+
     #opcionesClima .list-group-item i {
+      margin-right: 15px !important;
+    }
+
+    #soportewhatsapp .list-group-item i {
       margin-right: 15px !important;
     }
 
@@ -53,8 +64,21 @@
 	      <li><a href="#" snap-toggle><i class="fa fa-shopping-cart"></i> Proveedores</a></li>-->
 		   <li ng-class="{ active: isActive('/dosage') }"><a ng-click="dosageView()" snap-toggle><i class="fa fa-tint"></i> Dosificación</a></li>
 	      <li ng-class="{ active: isActive('/news') }"><a ng-click="newsView()" snap-toggle><i class="fa fa-bell"></i> Notificaciones</a></li>
-	      <li ng-class="{ active: isActive(classActive) }"><a ng-click="soportUser()" snap-toggle><i class="fa fa-comment"></i> Soporte</a></li>
-	      <li ng-class="{ active: isActive('/profile') }"><a href="#/profile" snap-toggle><i class="fa fa-user"></i> Perfil</a></li>
+        <!--<li ng-class="{ active: isActive(classActive) }"><a ng-click="soportUser()" snap-toggle><i class="fa fa-comment"></i> Soporte</a></li>-->
+        <li>
+          <a role="button" data-toggle="collapse" data-target="#soportewhatsapp" aria-controls="soportewhatsapp">
+            <i class="fa fa-comment"></i> Soporte
+          </a>
+          <ul id="soportewhatsapp" class="list-group collapse">
+            <li class="list-group-item"><a target="_blank" href="https://wa.me/50687246760">Los Santos</a></li>
+            <li class="list-group-item"><a target="_blank" href="https://wa.me/50687246743">Coto Brus</a></li>
+            <li class="list-group-item"><a target="_blank" href="https://wa.me/50687246694">Valle Central</a></li>
+            <li class="list-group-item"><a target="_blank" href="https://wa.me/50684083879">Pérez Zeledón</a></li>
+            <li class="list-group-item"><a target="_blank" href="https://wa.me/50687246642">Turrialba</a></li>
+            <li class="list-group-item"><a target="_blank" href="https://wa.me/50687246682">Valle Occidental</a></li>
+          </ul>
+        </li>
+        <li ng-class="{ active: isActive('/profile') }"><a href="#/profile" snap-toggle><i class="fa fa-user"></i> Perfil</a></li>
 	      <li><a href="#/login" ng-click="logOut()" snap-close><i class="fa fa-power-off"></i> Salir</a></li>
 	    </ul>
       <div align="center" style="margin-top:30px">
