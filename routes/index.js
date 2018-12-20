@@ -301,7 +301,7 @@ router.post('/register', function (req, res, next) {
                                     <td class="m_7597259537403923093mcnImageContent" valign="top" style="padding-right:9px;padding-left:9px;padding-top:0;padding-bottom:0;text-align:center">
 
 
-                                                <img align="center" alt="" src="http://coffeecloud.centroclima.org/images/Anacafe-logo.png" width="400" style="max-width:400px;padding-bottom:0;display:inline!important;vertical-align:bottom;border:0;height:auto;outline:none;text-decoration:none" class="m_7597259537403923093mcnImage CToWUd">
+                                                <img align="center" alt="" src="http://www.icafe.cr/wp-content/uploads/2015/02/logo_icafe.png" width="400" style="max-width:400px;padding-bottom:0;display:inline!important;vertical-align:bottom;border:0;height:auto;outline:none;text-decoration:none" class="m_7597259537403923093mcnImage CToWUd">
 
 
                                     </td>
@@ -769,7 +769,7 @@ router.post('/requestpasswordchange', function (req, res, next) {
                                                                                     <tbody><tr>
 
                                                                                             <td align="center" valign="middle" width="24" class="m_7597259537403923093mcnFollowIconContent">
-                                                                                                <a href="https://twitter.com/cafedeguatemala?lang=es" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=es&amp;q=https://twitter.com/cafedeguatemala?lang%3Des&amp;source=gmail&amp;ust=1531609635040000&amp;usg=AFQjCNGI67Xu9LvozB5B91_Tex7FV49mwQ"><img src="https://ci4.googleusercontent.com/proxy/uApKaoPlCYOYXVT8sS0_mkIkNM4Q5vauv1oaDiARopaL9vVaZI6o2RGAqeKUEf9TivGAkS8JW3yhjZ9XIk8-H_mItq_5lW6mKT0Ug0OZALWvlBypdkrYzWGIKlhctBhZ_w=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/light-twitter-48.png" style="display:block;border:0;height:auto;outline:none;text-decoration:none" height="24" width="24" class="CToWUd"></a>
+                                                                                                <a href="https://twitter.com/ICAFE_COSTARICA" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=es&amp;q=https://twitter.com/cafedeguatemala?lang%3Des&amp;source=gmail&amp;ust=1531609635040000&amp;usg=AFQjCNGI67Xu9LvozB5B91_Tex7FV49mwQ"><img src="https://ci4.googleusercontent.com/proxy/uApKaoPlCYOYXVT8sS0_mkIkNM4Q5vauv1oaDiARopaL9vVaZI6o2RGAqeKUEf9TivGAkS8JW3yhjZ9XIk8-H_mItq_5lW6mKT0Ug0OZALWvlBypdkrYzWGIKlhctBhZ_w=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/light-twitter-48.png" style="display:block;border:0;height:auto;outline:none;text-decoration:none" height="24" width="24" class="CToWUd"></a>
                                                                                             </td>
 
 
@@ -797,7 +797,7 @@ router.post('/requestpasswordchange', function (req, res, next) {
                                                                                     <tbody><tr>
 
                                                                                             <td align="center" valign="middle" width="24" class="m_7597259537403923093mcnFollowIconContent">
-                                                                                                <a href="https://www.facebook.com/anacafe/" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=es&amp;q=https://www.facebook.com/anacafe/&amp;source=gmail&amp;ust=1531609635040000&amp;usg=AFQjCNE_pG9SMB7OjyKy7jYJmkWObJchDw"><img src="https://ci4.googleusercontent.com/proxy/LWkr9DyYvFpHIeSydlleghMZDtPPHLDIrbV5pctVV8VMdsNhAHrzXjmrOflkx6k78EOlIvlhfa2SLwFG_PfUoBWLBYTy890STL8K-v0veJqHjPjxWO3lkKREVqEBzdsn_v8=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/light-facebook-48.png" style="display:block;border:0;height:auto;outline:none;text-decoration:none" height="24" width="24" class="CToWUd"></a>
+                                                                                                <a href="https://www.facebook.com/icafe.cr" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=es&amp;q=https://www.facebook.com/anacafe/&amp;source=gmail&amp;ust=1531609635040000&amp;usg=AFQjCNE_pG9SMB7OjyKy7jYJmkWObJchDw"><img src="https://ci4.googleusercontent.com/proxy/LWkr9DyYvFpHIeSydlleghMZDtPPHLDIrbV5pctVV8VMdsNhAHrzXjmrOflkx6k78EOlIvlhfa2SLwFG_PfUoBWLBYTy890STL8K-v0veJqHjPjxWO3lkKREVqEBzdsn_v8=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/light-facebook-48.png" style="display:block;border:0;height:auto;outline:none;text-decoration:none" height="24" width="24" class="CToWUd"></a>
                                                                                             </td>
 
 
@@ -825,7 +825,7 @@ router.post('/requestpasswordchange', function (req, res, next) {
                                                                                     <tbody><tr>
 
                                                                                             <td align="center" valign="middle" width="24" class="m_7597259537403923093mcnFollowIconContent">
-                                                                                                <a href="https://www.anacafe.org/glifos/index.php/P%C3%A1gina_principal" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=es&amp;q=https://www.anacafe.org/glifos/index.php/P%25C3%25A1gina_principal&amp;source=gmail&amp;ust=1531609635040000&amp;usg=AFQjCNFjsEl8hJS_13gJPQ71vHpLnA9Uxw"><img src="https://ci6.googleusercontent.com/proxy/j1hD8tgUcYxyuQBy3KlTOeky2sGXFFxtuig8JGTnECu5PyzP-AE3d9y2ZWtOrCyDF0sqrKInkCaDRAQNkbS-lYgCcsenONGHBDXODDhcnaRMym45_klvjnK-mHRMnQ=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/light-link-48.png" style="display:block;border:0;height:auto;outline:none;text-decoration:none" height="24" width="24" class="CToWUd"></a>
+                                                                                                <a href="http://www.icafe.cr/" target="_blank" style="display:block;border:0;height:auto;outline:none;text-decoration:none" height="24" width="24" class="CToWUd"></a>
                                                                                             </td>
 
 
